@@ -28,16 +28,16 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
-    <dependency>
-    <groupId>org.apache.maven</groupId>
-    <artifactId>maven-core</artifactId>
-    <version>3.0.5</version>
-</dependency>
+    		<dependency>
+    			<groupId>org.apache.maven</groupId>
+    			<artifactId>maven-core</artifactId>
+    			<version>3.0.5</version>
+		</dependency>
 
-  </dependencies>
-  <build>
-    <finalName>LibraryApplication</finalName>
-    <pluginManagement>
+  	</dependencies>
+  	<build>
+    	<finalName>LibraryApplication</finalName>
+    	<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
